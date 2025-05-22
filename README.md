@@ -40,3 +40,16 @@ https://img.youtube.com/vi/hHM-hr9q4mo/0.jpg
 Hospedar API
 
 [Render](https://dashboard.render.com/)
+
+Link da API
+
+```sh
+https://node-api-fvge.onrender.com/videos
+```
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
+Desenvolvido por [Cezar D Silva](https://github.com/cezardsilva)
