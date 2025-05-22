@@ -22,8 +22,10 @@ const server = fastify()
 
 // Ativando o CORS
 server.register(cors, {
-    origin: "*", // 🔥 Permite todas as origens. Pode mudar para 'http://localhost:3000' se quiser restringir.
-})
+    origin: "*", // Permite requisições de qualquer origem
+    methods: ["GET", "POST", "PUT", "DELETE"], // ✅ Agora permite DELETE 
+});
+
 
 //const database = new DatabaseMemory()
 const database = new DatabasePostgres()
