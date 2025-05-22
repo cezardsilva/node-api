@@ -13,11 +13,17 @@
 // });
 
 import { fastify } from 'fastify'
+import cors from '@fastify/cors' // 🏆 Importando Fastify CORS
 //import { DatabaseMemory } from './database-memory.js'
 import { request } from 'node:http'
 import { DatabasePostgres } from './database-postgres.js'
 
 const server = fastify()
+
+// Ativando o CORS
+server.register(cors, {
+    origin: "*", // 🔥 Permite todas as origens. Pode mudar para 'http://localhost:3000' se quiser restringir.
+})
 
 //const database = new DatabaseMemory()
 const database = new DatabasePostgres()
