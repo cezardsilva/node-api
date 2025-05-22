@@ -1,0 +1,34 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o video 01",
+    "link": "https://www.youtube.com/watch?v=hHM-hr9q4mo",
+    "thumbnail":"https://img.youtube.com/vi/hHM-hr9q4mo/0.jpg",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3333/videos?search=
+
+
+
+###
+
+PUT http://localhost:3333/videos/73ccf6e2-0786-4f05-b1a6-76ee815be2c1
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o video 02",
+    "link": "https://www.youtube.com/watch?v=hHM-hr9q4mo",
+    "thumbnail":"https://img.youtube.com/vi/hHM-hr9q4mo/0.jpg",
+    "duration": 180
+}
+
+
+###
+
+DELETE http://localhost:3333/videos/73ccf6e2-0786-4f05-b1a6-76ee815be2c1
