@@ -1,4 +1,4 @@
-POST https://node-api-fvge.onrender.com/videos
+POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
@@ -11,13 +11,13 @@ Content-Type: application/json
 
 ###
 
-GET https://node-api-fvge.onrender.com/videos?search=
+GET http://localhost:3333/videos?search=
 
 
 
 ###
 
-PUT https://node-api-fvge.onrender.com/videos/d268b2f6-b39c-4550-9913-1ebc4fdea236
+PUT http://localhost:3333/videos/73ccf6e2-0786-4f05-b1a6-76ee815be2c1
 Content-Type: application/json
 
 {
@@ -31,4 +31,4 @@ Content-Type: application/json
 
 ###
 
-DELETE https://node-api-fvge.onrender.com/videos/73ccf6e2-0786-4f05-b1a6-76ee815be2c1
+DELETE http://localhost:3333/videos/73ccf6e2-0786-4f05-b1a6-76ee815be2c1
