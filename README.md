@@ -6,7 +6,7 @@
 Database: nodedb
 Role: nodedb_owner
 
-postgresql://nodedb_owner:npg_Wm23QoRMdcuB@ep-proud-hill-a59uehiy-pooler.us-east-2.aws.neon.tech/nodedb?sslmode=require
+postgresql://nodedb_owner:xxxxxxxxxxxxxxxxxxx@ep-proud-hill-a59uehiy-pooler.us-east-2.aws.neon.tech/nodedb?sslmode=require
 ```
 
 ## Instalação
